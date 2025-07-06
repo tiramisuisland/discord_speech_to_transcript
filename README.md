@@ -1,2 +1,2 @@
-# speech_to_transcript
-Speech to Transcript
+# discord_speech_to_transcript
+discord_speech_to_transcript
