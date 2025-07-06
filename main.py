@@ -114,7 +114,7 @@ async def on_message(message):
                 await message.channel.send("⚠️ 請上傳 mp3 或 m4a 音訊檔案。")
 
 # ===== 啟動 Bot =====
-with open("/home/tiramisu-tuf/project/token.txt", "r") as f:
+with open("token.txt", "r") as f:
     token = f.read().strip()
 
 client.run(token)
